@@ -54,7 +54,8 @@ function Login() {
               marginTop="2rem"
               marginBottom="1rem"
               width="100%"
-              backgroundColor="secondary.500">Entrar</Button>
+              backgroundColor="secondary.500"
+              _hover={{ backgroundColor: "secondary.600" }}>Entrar</Button>
             <Link
               href="#"
               color="gray.100">

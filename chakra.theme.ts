@@ -8,6 +8,7 @@ export const theme = extendTheme({
     },
     secondary: {
       500: "#FED95F",
+      600: "#FDC819",
     },
   },
 });
