@@ -24,8 +24,9 @@ function Login() {
           <InputGroup>
             <InputLeftElement
               pointerEvents='none'
-              children={<FiUser color={theme.colors.gray['500']} />}
-            />
+            >
+              <FiUser color={theme.colors.gray['500']} />
+            </InputLeftElement>
             <Input
               placeholder="Email"
               marginBottom="1rem"
@@ -36,8 +37,9 @@ function Login() {
           <InputGroup>
             <InputLeftElement
               pointerEvents='none'
-              children={<FiLock color={theme.colors.gray['500']} />}
-            />
+            >
+              <FiLock color={theme.colors.gray['500']} />
+            </InputLeftElement>
             <Input
               placeholder="Senha"
               borderColor="gray.700"
